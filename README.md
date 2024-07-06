@@ -1,4 +1,4 @@
-# PassGuard  ![](https://img.shields.io/crates/v/passguard?style=flat-square&logo=rust) ![](https://img.shields.io/crates/l/passguard?style=flat-square)
+# PassGuard  ![](https://img.shields.io/crates/v/passguard?style=flat-square&logo=rust) ![](https://img.shields.io/crates/l/passguard?style=flat-square&logo=rust)
 
 This Rust-based password and passphrase generator offers a versatile solution for creating secure, customizable passwords. With support for password size and include uppercase, numbers and symbols.
 
