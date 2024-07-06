@@ -3,9 +3,11 @@ name = "passguard"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-authors = [ "kremilly" ]
+authors = ["kremilly"]
+keywords = ["password-generator", "passphrase-generator", "password-score", "security"]
+description = "This Rust-based password and passphrase generator offers a versatile solution for creating secure, customizable passwords. With support for password size and include uppercase, numbers and symbols."
+repository = "https://github.com/kremilly/PassGuard"
 homepage = "https://kremilly.com"
-documentation = "https://kremilly.com/docs/passguard"
 
 [dependencies]
 rand = "0.8.5"

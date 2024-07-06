@@ -1,4 +1,3 @@
-
 # PassGuard  ![](https://img.shields.io/crates/v/passguard?style=flat-square&logo=rust) ![](https://img.shields.io/crates/l/passguard?style=flat-square)
 
 This Rust-based password and passphrase generator offers a versatile solution for creating secure, customizable passwords. With support for password size and include uppercase, numbers and symbols.
@@ -11,7 +10,19 @@ This Rust-based password and passphrase generator offers a versatile solution fo
 - Choice of generation method: password or passphrase.
 - Display of generated password strength.
 
+## Install
+
+To Install using [crates.io](https://crates.io/)
+
+```shell
+cargo install passguard
+```
+
 ## Example Usage
+
+```shell
+passguard
+```
 
 ```sh
 Choose a method (password/passphrase): passphrase
