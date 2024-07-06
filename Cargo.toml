@@ -11,6 +11,4 @@ homepage = "https://kremilly.com"
 
 [dependencies]
 rand = "0.8.5"
-reqwest = "0.12.5"
-tokio = { version = "1.38.0", features = ["full"] }
 zxcvbn = "3.0.1"
