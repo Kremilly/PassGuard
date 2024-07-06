@@ -3,9 +3,9 @@ use std::io::{
     Write
 };
 
-pub struct Inputs;
+pub struct Input;
 
-impl Inputs {
+impl Input {
 
     pub fn read_int(text: &str) -> usize {
         write!(io::stdout(), "{} ", text).expect("Failed to write to stdout");

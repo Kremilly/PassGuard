@@ -2,6 +2,7 @@ use zxcvbn::zxcvbn;
 
 pub struct PassScore {
     password: String,
+    show_score: String,
 }
 
 impl PassScore {
@@ -17,13 +18,18 @@ impl PassScore {
         }
     }
 
-    pub fn new(password: &str) -> Self {
+    pub fn new(password: String, show_score: String) -> Self {
         PassScore {
             password: password.to_string(),
+            show_score: show_score.to_string(),
         }
     }
 
     pub fn get(&mut self) {
+        if self.show_score.to_lowercase() != "y" {
+            return;
+        }
+        
         let result = zxcvbn(&self.password, &[]);
 
         let score = result.score() as u8;
